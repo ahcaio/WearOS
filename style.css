@@ -13,13 +13,16 @@ body {
 
 .texto__titulo{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     font-size: 32x;
     color: var(--cor-secundaria);
     padding-top: 80px;
     padding-bottom: 60px;
     font-family: 'Roboto Mono', monospace;
-    height: auto;
+    line-height: 30px;
+    
 }
 
 .texto {
@@ -27,8 +30,8 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 24px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 300px;
     line-height: 26px;
     font-family: 'Roboto Mono', monospace;
